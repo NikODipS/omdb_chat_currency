@@ -24,7 +24,7 @@
           </div>
 
           <div>
-            <InputGroup label="Release Year">
+            <InputGroup label="First Name">
               <ValidationProvider
                 v-slot="{ errors, invalid }"
                 name="firstName"
@@ -43,7 +43,7 @@
             </InputGroup>
           </div>
           <div>
-            <InputGroup label="Release Year">
+            <InputGroup label="Last Name">
               <ValidationProvider
                 v-slot="{ errors, invalid }"
                 name="lastName"
