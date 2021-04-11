@@ -1,0 +1,38 @@
+{
+  "name": "task_fe",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --port 8080",
+    "build": "nuxt build",
+    "start": "nuxt start --port 8080",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@nuxtjs/axios": "^5.12.2",
+    "@vuex-orm/core": "^0.36.3",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.11",
+    "socket.io": "^4.0.1",
+    "socket.io-client": "^4.0.1",
+    "vee-validate": "^3.4.5",
+    "vue": "^2.6.12",
+    "vue-clickaway": "^2.2.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/tailwindcss": "^3.3.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
